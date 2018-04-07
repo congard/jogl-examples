@@ -13,3 +13,6 @@ JOGL (Java OpenGL) Examples
 		<br>`for (int i = 0; i<lamps.length; i++) lamps[i].calculateLampPosInEyeSpace(mViewMatrix);`
     <br>Add this to `display` method
     <br>This is necessary to add in the event that on your scene the lamps do not move, but the camera moves
+    <br><br>
+1. [Ambient+diffuse+specular colorful lighting with several lamps, animation, texture, lamps prop, attenuation and OBJ models loading](https://github.com/congard/jogl-examples/tree/master/lighting_colorful_ambient_diffuse_specular-several_lamps-texture-animation-lampsprop-attenuation-objmodels)
+1. [Ambient+diffuse+specular colorful lighting with several lamps, animation, texture, lamps prop, attenuation and, models loading and lighting maps](https://github.com/congard/jogl-examples/tree/master/lighting_colorful_ambient_diffuse_specular-several_lamps-texture-animation-lampsprop-attenuation-objmodels-lightingmaps)
