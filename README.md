@@ -8,3 +8,8 @@ JOGL (Java OpenGL) Examples
 1. [Shaders with 3 matrices (Model-View-Projection), simple lighting with several lamps and texture](https://github.com/congard/jogl-examples/tree/master/shaders-3mat_mvp-ssllighting-texture)
 1. [Ambient+diffuse+specular colorful lighting with several lamps, animation and texture](https://github.com/congard/jogl-examples/tree/master/lighting_colorful_ambient_diffuse_specular-several_lamps-texture-animation)
 1. [Ambient+diffuse+specular colorful lighting with several lamps, animation, texture and lamps prop](https://github.com/congard/jogl-examples/tree/master/lighting_colorful_ambient_diffuse_specular-several_lamps-texture-animation-lampsprop)
+    <br><br>Small fix for lamps:
+    <br>`// updating lamps eye space position`
+		<br>`for (int i = 0; i<lamps.length; i++) lamps[i].calculateLampPosInEyeSpace(mViewMatrix);`
+    <br>Add this to `display` method
+    <br>This is necessary to add in the event that on your scene the lamps do not move, but the camera moves
