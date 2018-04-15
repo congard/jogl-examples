@@ -16,3 +16,4 @@ JOGL (Java OpenGL) Examples
     <br><br>
 1. [Ambient+diffuse+specular colorful lighting with several lamps, animation, texture, lamps prop, attenuation and OBJ models loading](https://github.com/congard/jogl-examples/tree/master/lighting_colorful_ambient_diffuse_specular-several_lamps-texture-animation-lampsprop-attenuation-objmodels)
 1. [Ambient+diffuse+specular colorful lighting with several lamps, animation, texture, lamps prop, attenuation and, models loading and lighting maps](https://github.com/congard/jogl-examples/tree/master/lighting_colorful_ambient_diffuse_specular-several_lamps-texture-animation-lampsprop-attenuation-objmodels-lightingmaps)
+1. [+Normal Mapping](https://github.com/congard/jogl-examples/tree/master/010-normalmapping)<br>[Video](https://www.youtube.com/watch?v=l_JgyE9BKo0)
