@@ -1,5 +1,6 @@
 # JOGL Examples
-JOGL (Java OpenGL) Examples
+# Since June 7, 2018, the repository will no longer be updated here. All updates and other projects will now be on the [GitLab](https://gitlab.com/congard/jogl-examples)
+<br>JOGL (Java OpenGL) Examples
 
 1. [Shaders with 2 matrices](https://github.com/congard/jogl-examples/tree/master/jogl-shaders-2matrices)
 1. Shaders with 3 matrices
